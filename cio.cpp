@@ -15,7 +15,7 @@ struct : object{
         { cin.get(ch); rett; }
 } cio;
 
-struct {
+struct : object{
     TmplT auto& operator()(T obj) 
     { cout<<obj; return self; }
     template<class... Args> 

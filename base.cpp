@@ -11,5 +11,5 @@
 
 #include"typedefs.cpp"
 
-class object {}
+struct object {}
 
